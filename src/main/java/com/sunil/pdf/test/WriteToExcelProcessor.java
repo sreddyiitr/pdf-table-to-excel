@@ -24,7 +24,7 @@ public class WriteToExcelProcessor {
 		
 		// Create and write to excel sheet
 		Workbook workbook = new XSSFWorkbook();
-		Sheet sheet = workbook.createSheet("Vihaan");
+		Sheet sheet = workbook.createSheet("Testtab");
 		XSSFFont font = ((XSSFWorkbook) workbook).createFont();
 		font.setFontName("Arial");
 		font.setFontHeightInPoints((short) 16);
